@@ -1,0 +1,11 @@
+Total devices: 9
+--------------------------------------------------------------------------------
+ID: fd0cb5b2-3f42-4355-a828-9bc84187efba | User: a4ea62f8-b476-4c80-810b-f8f681029944 | Name: om Lunge | Type: web | Status: expired | Active: False
+ID: 3681e154-9992-4305-8975-c2be483ed7b8 | User: d352c15c-4793-4760-b96c-34961f2a0f4b | Name: unofficial_device_vikas  | Type: web | Status: connected | Active: True
+ID: d8c64c0c-f012-4047-8f14-e91f9f709154 | User: a4ea62f8-b476-4c80-810b-f8f681029944 | Name: omlunget | Type: web | Status: connected | Active: True
+ID: 72d3ade7-2aa1-409a-9a2d-12acc0ce2c4c | User: 30079b48-4697-4cc8-9312-4ab25c331085 | Name: WhatsappAPI | Type: web | Status: expired | Active: False
+ID: 02fa5516-83b3-4851-9c35-daadeb908651 | User: 30079b48-4697-4cc8-9312-4ab25c331085 | Name: WhatsAppAPI | Type: web | Status: expired | Active: True
+ID: 122e7fd4-3c1b-4564-98a8-61f852ae3e09 | User: 30079b48-4697-4cc8-9312-4ab25c331085 | Name: Official WhatsApp Cloud | Type: official | Status: connected | Active: True
+ID: e813a7bf-1feb-49b1-af73-0422d6b45c4c | User: a4ea62f8-b476-4c80-810b-f8f681029944 | Name: Official WhatsApp Cloud | Type: official | Status: connected | Active: True
+ID: 4b7cb7f4-a827-4cd0-9732-f95728a7245c | User: a4ea62f8-b476-4c80-810b-f8f681029944 | Name: Himashu_test | Type: web | Status: logged_out | Active: False
+ID: 0505a868-f00a-44fb-a3e1-2470f2d40192 | User: a4ea62f8-b476-4c80-810b-f8f681029944 | Name: Test Device | Type: web | Status: pending | Active: False

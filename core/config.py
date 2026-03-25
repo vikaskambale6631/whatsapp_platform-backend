@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     DEBUG: bool = False
     
     # Database
-    DATABASE_URL: str = "postgresql://whatsapp_platform_fn0k_user:AbHezwfAs553dVCy33wfHzsGMVJbf8M0@dpg-d6oh8tfafjfc7386oii0-a.oregon-postgres.render.com/whatsapp_platform_fn0k"
+    DATABASE_URL: str = "postgresql://whatsapp_platform_fn0k_user:AbHezwfAs553dVCy33wfHzsGMVJbf8M0@dpg-d6oh8tfafjfc7386oii0-a.oregon-postgres.render.com/whatsapp_platform_fn0k?sslmode=require"
     
     # Security
     SECRET_KEY: str = "your-super-secret-key-here-change-in-production"
@@ -62,6 +62,7 @@ class Settings(BaseSettings):
         """Database engine with connection pool settings"""
         return create_engine(
             self.DATABASE_URL,
+            connect_args={"sslmode": "require"},
             pool_size=20,
             max_overflow=30,
             pool_timeout=45,

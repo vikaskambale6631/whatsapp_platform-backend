@@ -165,6 +165,7 @@ app.add_middleware(
         "http://localhost:3002",
         "http://127.0.0.1:3002",
         "https://whatsapp-platform-backend-ztwa.onrender.com/api"
+        "https://whatsapp-platform-frontend-oz5q.onrender.com"
         "https://whatsapp-platform-engine.onrender.com"
        
        
